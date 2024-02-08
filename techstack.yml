@@ -1,0 +1,472 @@
+repo_name: luisquissak/checa-vagas
+report_id: eaed900701864ae4303c06c091e07dd2
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T19:52:44+00:00'
+requested_by: luisquissak
+provider: github
+branch: main
+detected_tools_count: 31
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/luisquissak/checa-vagas
+  detection_source: Repo Metadata
+- name: PyPDF2
+  description: PDF toolkit
+  package_url: https://pypi.org/project/PyPDF2
+  version: 1.26.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20065/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+  vulnerabilities:
+  - name: PyPDF2 quadratic runtime with malformed PDF missing xref marker
+    cve_id: CVE-2023-36810
+    cve_url: https://github.com/advisories/GHSA-jrm6-h9cq-8gqw
+    detected_date: Jul 1
+    severity: moderate
+    first_patched: 1.27.9
+  - name: Manipulated inline images can cause Infinite Loop in PyPDF2
+    cve_id: CVE-2022-24859
+    cve_url: https://github.com/advisories/GHSA-xcjx-m2pj-8g79
+    detected_date: Apr 27
+    severity: moderate
+    first_patched: 1.27.5
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  version: 2.11.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+  vulnerabilities:
+  - name: Pygments vulnerable to ReDoS
+    cve_id: CVE-2022-40896
+    cve_url: https://github.com/advisories/GHSA-mrwq-x4v8-fh7p
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 2.15.0
+- name: asttokens
+  description: Annotate AST trees with source code positions
+  package_url: https://pypi.org/project/asttokens
+  version: 2.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20745/default_c90b3e514872112e4562f3131a3c6b68b0d05009.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: backcall
+  description: Specifications for callback functions passed in to an API
+  package_url: https://pypi.org/project/backcall
+  version: 0.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 22.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.0.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: decorator
+  description: Decorators for Humans
+  package_url: https://pypi.org/project/decorator
+  version: 5.1.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19911/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: entrypoints
+  description: Discover and load entry points from installed packages
+  package_url: https://pypi.org/project/entrypoints
+  version: '0.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20424/default_6d9e48c73a51a5ed50a36bba10e7dc73dd24c660.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: executing
+  description: Get the currently executing AST node of a frame
+  package_url: https://pypi.org/project/executing
+  version: 0.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: ipykernel
+  description: IPython Kernel for Jupyter
+  package_url: https://pypi.org/project/ipykernel
+  version: 6.9.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20282/default_23dd4b159eaa2c5b085470b39bf396fcc6cf2c38.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: jedi
+  description: An autocompletion tool for Python that can be used for text editors
+  package_url: https://pypi.org/project/jedi
+  version: 0.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20260/default_9a53068260c70b2274df0967716480e7e3f74b0d.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: jupyter-client
+  description: Jupyter protocol implementation and client libraries
+  package_url: https://pypi.org/project/jupyter-client
+  version: 7.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20352/default_f465c24287ef1189cebf97fef20e50d0bbc5623d.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: jupyter-core
+  description: Jupyter core package
+  package_url: https://pypi.org/project/jupyter-core
+  version: 4.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20703/default_49f208ff144f55afc8c1c08f01bcb1eef2f5bb23.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+  vulnerabilities:
+  - name: Execution with Unnecessary Privileges in JupyterApp
+    cve_id: CVE-2022-39286
+    cve_url: https://github.com/advisories/GHSA-m678-f26j-3hrp
+    detected_date: Oct 27
+    severity: high
+    first_patched: 4.11.2
+- name: nest-asyncio
+  description: Patch asyncio to allow nested event loops
+  package_url: https://pypi.org/project/nest-asyncio
+  version: 1.5.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20756/default_3b89e4079f3032d1be4fc7657dcb47e23c973660.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: parso
+  description: A Python Parser
+  package_url: https://pypi.org/project/parso
+  version: 0.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20216/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: pathspec
+  description: Utility library for gitignore style pattern matching of file paths
+  package_url: https://pypi.org/project/pathspec
+  version: 0.9.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20261/default_24e344cf78482d8a66297ae9ebea86f00b570483.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: pickleshare
+  description: Tiny 'shelve'-like database with concurrency support
+  package_url: https://pypi.org/project/pickleshare
+  version: 0.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20603/default_705055e61b43e314c99bd16582ed1fac9638127e.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.28
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: pyzmq
+  description: Python bindings for 0MQ
+  package_url: https://pypi.org/project/pyzmq
+  version: 22.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19913/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: tomli
+  description: A lil' TOML parser
+  package_url: https://pypi.org/project/tomli
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: tornado
+  description: Tornado is a Python web framework and asynchronous networking library
+  package_url: https://pypi.org/project/tornado
+  version: '6.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19860/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+  vulnerabilities:
+  - name: Tornado vulnerable to HTTP request smuggling via improper parsing of `Content-Length`
+      fields and chunk lengths
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-qppv-j76h-2rpx
+    detected_date: Aug 15
+    severity: moderate
+    first_patched: 6.3.3
+  - name: Open redirect in Tornado
+    cve_id: CVE-2023-28370
+    cve_url: https://github.com/advisories/GHSA-hj3f-6gcp-jg8j
+    detected_date: May 26
+    severity: moderate
+    first_patched: 6.3.2
+- name: traitlets
+  description: Traitlets Python config system
+  package_url: https://pypi.org/project/traitlets
+  version: 5.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20029/default_73018c8841403fdd7d8f629d056cba8f938c5589.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/luisquissak/checa-vagas/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Luís Fernando de Siqueira Quissak Pereira
+  last_updated_on: 2022-02-20 15:26:15.000000000 Z
